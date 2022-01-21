@@ -1,0 +1,26 @@
+$메인칼라 : #ff0000;
+
+.red {
+    color: $메인칼라;
+}
+.btn {
+    margin-right: 10px;
+}
+//nesting문법
+div.container {
+    h4 {
+        color: black;
+    }
+}
+.my-alert {
+    background: #eeeeee;
+    padding: 20px;
+    border-radius: 5px;
+    max-width: 500px;
+    width: 100%;
+    margin: auto;
+}
+
+//scss문법을 쓰는 이유 : 변수를 쓴다.
+//@import 파일 경로
+
