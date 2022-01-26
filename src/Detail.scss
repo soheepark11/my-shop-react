@@ -1,0 +1,36 @@
+.container button {
+    margin: 10px;
+}
+
+$메인칼라 : black;
+
+.red {
+    color: $메인칼라;
+}
+
+div.container {
+    h4 {
+        color: black;
+    }
+    p {
+        color: black;
+    }
+}
+@mixin 함수(){
+    background: #eeeeee;
+    padding: 15px;
+    border-radius: 5px;
+    max-width: 500px;
+    width: 100%;
+    margin: auto;
+}
+.my-alert {
+    @include 함수()
+}
+.my-alert2 {
+    @extend .my-alert;
+    background: #ffe591;
+}
+.my-alert p {
+    margin-bottom: 0 ;
+}

@@ -1,5 +1,3 @@
-{/* 파일을 쪼개는 import export */}
-
 export default [
     {
         id : 0,
